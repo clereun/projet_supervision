@@ -1,0 +1,9 @@
+script_0.sh -> cli_hostname`,`cli_distrib, vers_logiciel,vers_distribution,vers_noyau / info généréles
+script_1.sh -> util_nom,util_uid,util_groupe / info utilisateur
+script_2.sh -> logs de connexions
+script_3.sh -> table de route
+script_4.sh -> liste des paquets installés
+script_5.sh -> liste des paquets maj
+script_6.sh -> info programmes en ecoute
+script_7.sh -> hash des dossiers bin,sbin, usr, shadow, passwd
+script_8.sh -> iptables / déployer sur machine lors de l'installation

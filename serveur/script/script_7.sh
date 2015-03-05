@@ -1,0 +1,6 @@
+find /bin -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g" 
+find /sbin -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g" 
+find /usr/bin -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g" 
+find /usr/sbin -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g" 
+find /etc/shadow -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g" 
+find /etc/passwd -type f -exec md5sum "{}" \; | md5sum | sed -e "s/\-/\ /g" | tr -s ' ' |sed -e "s/\ /$/g"

@@ -1,0 +1,2 @@
+user_bdd=user; //Nom d'utilisateur pour la connection bdd
+mdp_bdd=mdp; //Mot de passe pour la connection bdd
